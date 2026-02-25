@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffcccb;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #8B0000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a40000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tasty Bites</h1>
+    <p>Delicious Food, Great Taste!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>Welcome</h2>
+    <p>Welcome to Tasty Bites Restaurant. Enjoy fresh and delicious meals made with love.</p>
+</div>
+
+<div class="container" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">🍕 Pizza - ₹250</div>
+    <div class="menu-item">🍔 Burger - ₹150</div>
+    <div class="menu-item">🍝 Pasta - ₹200</div>
+    <div class="menu-item">🥗 Salad - ₹120</div>
+</div>
+
+<div class="container" id="about">
+    <h2>About Us</h2>
+    <p>We are a family-owned restaurant serving tasty food since 2020.</p>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Noida, India</p>
+    <p>📞 +91 98765 43210</p>
+    <button onclick="alert('Thank you for contacting us!')">Order Now</button>
+</div>
+
+<footer>
+    <p>© 2026 Tasty Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
